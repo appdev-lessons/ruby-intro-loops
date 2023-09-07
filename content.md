@@ -261,7 +261,7 @@ Try running it. Here's what's going on:
  - The `.times` method executed the block of code the second time.
  - Etc.
 
-Why does `.times` start by assigning `0` to its block variable during the first iteration, rather than `1`? Well, that's just how the author of the `.times` method made it work. Remember, Ruby, like many other languages uses [zero-indexing](https://learn.firstdraft.com/lessons/73#at).
+Why does `.times` start by assigning `0` to its block variable during the first iteration, rather than `1`? Well, that's just how the author of the `.times` method made it work. Remember, Ruby, like many other languages uses [zero-indexing](https://learn.firstdraft.com/lessons/73-ruby-intro-array#at).
 
 Fortunately, Ruby provides lots of other looping convenience methods that we can take advantage of instead, and each one assigns different values to its block variable.
 
